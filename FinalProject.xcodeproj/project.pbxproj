@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F8BE6662BF789BB00CB5E8C /* CompletedDaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BE6652BF789BB00CB5E8C /* CompletedDaysModel.swift */; };
+		7F8BE6682BF78E0C00CB5E8C /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BE6672BF78E0C00CB5E8C /* VideoView.swift */; };
 		7FF83F742BF767CA007B068F /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F732BF767CA007B068F /* FinalProjectApp.swift */; };
 		7FF83F762BF767CA007B068F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F752BF767CA007B068F /* ContentView.swift */; };
 		7FF83F782BF767CA007B068F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F772BF767CA007B068F /* Item.swift */; };
 		7FF83F7A2BF767CC007B068F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF83F792BF767CC007B068F /* Assets.xcassets */; };
 		7FF83F7E2BF767CC007B068F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF83F7D2BF767CC007B068F /* Preview Assets.xcassets */; };
+		7FF83F852BF7688D007B068F /* GuidedMeditationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F842BF7688D007B068F /* GuidedMeditationPage.swift */; };
+		7FF83F872BF768AA007B068F /* MeditationTimerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F862BF768AA007B068F /* MeditationTimerPage.swift */; };
+		7FF83F892BF768B7007B068F /* MusicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F882BF768B7007B068F /* MusicPage.swift */; };
+		7FF83F8D2BF769FD007B068F /* TopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F8C2BF769FD007B068F /* TopicDetailView.swift */; };
+		7FF83F8F2BF7703C007B068F /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F8E2BF7703C007B068F /* TimerModel.swift */; };
+		7FF83F922BF772AC007B068F /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 7FF83F912BF772AC007B068F /* FSCalendar */; };
+		7FF83F942BF772FC007B068F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F932BF772FC007B068F /* CalendarView.swift */; };
+		7FF83F962BF77524007B068F /* ConsistencyTrackingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF83F952BF77524007B068F /* ConsistencyTrackingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F8BE6652BF789BB00CB5E8C /* CompletedDaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedDaysModel.swift; sourceTree = "<group>"; };
+		7F8BE6672BF78E0C00CB5E8C /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		7FF83F702BF767CA007B068F /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF83F732BF767CA007B068F /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		7FF83F752BF767CA007B068F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +34,13 @@
 		7FF83F792BF767CC007B068F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FF83F7B2BF767CC007B068F /* FinalProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProject.entitlements; sourceTree = "<group>"; };
 		7FF83F7D2BF767CC007B068F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FF83F842BF7688D007B068F /* GuidedMeditationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedMeditationPage.swift; sourceTree = "<group>"; };
+		7FF83F862BF768AA007B068F /* MeditationTimerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTimerPage.swift; sourceTree = "<group>"; };
+		7FF83F882BF768B7007B068F /* MusicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPage.swift; sourceTree = "<group>"; };
+		7FF83F8C2BF769FD007B068F /* TopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDetailView.swift; sourceTree = "<group>"; };
+		7FF83F8E2BF7703C007B068F /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		7FF83F932BF772FC007B068F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		7FF83F952BF77524007B068F /* ConsistencyTrackingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistencyTrackingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF83F922BF772AC007B068F /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +76,15 @@
 			children = (
 				7FF83F732BF767CA007B068F /* FinalProjectApp.swift */,
 				7FF83F752BF767CA007B068F /* ContentView.swift */,
+				7FF83F842BF7688D007B068F /* GuidedMeditationPage.swift */,
+				7FF83F8C2BF769FD007B068F /* TopicDetailView.swift */,
+				7FF83F862BF768AA007B068F /* MeditationTimerPage.swift */,
+				7FF83F8E2BF7703C007B068F /* TimerModel.swift */,
+				7FF83F882BF768B7007B068F /* MusicPage.swift */,
+				7F8BE6672BF78E0C00CB5E8C /* VideoView.swift */,
+				7FF83F952BF77524007B068F /* ConsistencyTrackingPage.swift */,
+				7F8BE6652BF789BB00CB5E8C /* CompletedDaysModel.swift */,
+				7FF83F932BF772FC007B068F /* CalendarView.swift */,
 				7FF83F772BF767CA007B068F /* Item.swift */,
 				7FF83F792BF767CC007B068F /* Assets.xcassets */,
 				7FF83F7B2BF767CC007B068F /* FinalProject.entitlements */,
@@ -88,6 +117,9 @@
 			dependencies = (
 			);
 			name = FinalProject;
+			packageProductDependencies = (
+				7FF83F912BF772AC007B068F /* FSCalendar */,
+			);
 			productName = FinalProject;
 			productReference = 7FF83F702BF767CA007B068F /* FinalProject.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 7FF83F672BF767CA007B068F;
+			packageReferences = (
+				7FF83F902BF772AC007B068F /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 7FF83F712BF767CA007B068F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,9 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8BE6682BF78E0C00CB5E8C /* VideoView.swift in Sources */,
+				7FF83F942BF772FC007B068F /* CalendarView.swift in Sources */,
+				7F8BE6662BF789BB00CB5E8C /* CompletedDaysModel.swift in Sources */,
+				7FF83F8F2BF7703C007B068F /* TimerModel.swift in Sources */,
 				7FF83F762BF767CA007B068F /* ContentView.swift in Sources */,
 				7FF83F782BF767CA007B068F /* Item.swift in Sources */,
+				7FF83F892BF768B7007B068F /* MusicPage.swift in Sources */,
+				7FF83F852BF7688D007B068F /* GuidedMeditationPage.swift in Sources */,
+				7FF83F962BF77524007B068F /* ConsistencyTrackingPage.swift in Sources */,
+				7FF83F8D2BF769FD007B068F /* TopicDetailView.swift in Sources */,
 				7FF83F742BF767CA007B068F /* FinalProjectApp.swift in Sources */,
+				7FF83F872BF768AA007B068F /* MeditationTimerPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FF83F902BF772AC007B068F /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7FF83F912BF772AC007B068F /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FF83F902BF772AC007B068F /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FF83F682BF767CA007B068F /* Project object */;
 }
